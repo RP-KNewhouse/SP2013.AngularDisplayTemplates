@@ -55,7 +55,7 @@ function getResultRows(ctx) {
         item.PictureURL = $getItemValue(ctx, "PictureURL").value;
         item.Path = $getItemValue(ctx, "Path").value;
         item.Description = $getItemValue(ctx, "Description").value;
-        item.ContentType = $getItemValue(ctx, "Content Type").value;
+        item.ContentType = $getItemValue(ctx, "Content Type").toString();
         item.Title = $getItemValue(ctx, 'Title').toString();
         item.FileExtension = $getItemValue(ctx, "FileExtension").toString();
         item.SecondaryFileExtension = $getItemValue(ctx, "SecondaryFileExtension").toString();
